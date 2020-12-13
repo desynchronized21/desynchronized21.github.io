@@ -21,15 +21,23 @@ body a{
   .color{
 	  color: #FF9800;
   }
+
+.banner12{
+  background: url(../images/banners/bg.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+}
   .banner11{
-	background: url(../images/mando1.jpg) no-repeat 0px 0px;
+	background: url(../images/banners/main.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
 	 background-size: cover;
 }
   .banner10{
-	  background: url(../images/bg2.jpg) no-repeat 0px 0px;
+	  background: url(../images/banners/bg.jpg) no-repeat 0px 0px;
 	  background-size: cover;
 	  background-attachment: fixed;
 	  background-position: center center;
@@ -52,42 +60,42 @@ body a{
 	 background-size: cover;
 }
   .banner7{
-	background: url(../images/apex.jpg) no-repeat 0px 0px;
+	background: url(../images/banners/apex.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
 	 background-size: cover;
 }
   .banner6{
-	background: url(../images/minecraft.jpg) no-repeat 0px 0px;
+	background: url(../images/banners/minecraft.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
 	 background-size: cover;
 }
   .banner5{
-	  background: url(../images/bat.jpg) no-repeat 0px 0px;
+	  background: url(../images/banners/bat.jpg) no-repeat 0px 0px;
 	  background-size: cover;
 	  background-attachment: fixed;
 	  background-position: center center;
 	   background-size: cover;
   }
   .banner4{
-	  background: url(../images/logo.jpg) no-repeat 0px 0px;
+	  background: url(../images/banners/logo.jpg) no-repeat 0px 0px;
 	  background-size: cover;
 	  background-attachment: fixed;
 	  background-position: center center;
 	   background-size: cover;
   }
   .banner3{
-	  background: url(../images/acll.jpg) no-repeat 0px 0px;
+	  background: url(../images/banners/acll.jpg) no-repeat 0px 0px;
 	  background-size: cover;
 	  background-attachment: fixed;
 	 background-position: center center;
 	  background-size: cover;
   }
   .banner2{
-	background: url(../images/amongus.jpg) no-repeat 0px 0px;
+	background: url(../images/banners/amongus.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
