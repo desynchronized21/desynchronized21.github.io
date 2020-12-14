@@ -23,7 +23,7 @@ body a{
   }
 
 .banner12{
-  background: url(../images/banners/bg.jpg) no-repeat 0px 0px;
+  background: url(../images/banners/bg2.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -139,7 +139,7 @@ body a{
   
   /* Add some padding inside the card container */
   .container {
-	padding: 2px 16px;
+	padding: 2px 24px;
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
