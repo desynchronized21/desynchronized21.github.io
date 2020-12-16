@@ -22,7 +22,7 @@ body a{
 	  color: #FF9800;
   }
   .bgimg {
-	background: url(../images/marvel.gif) no-repeat 0px 0px;
+	background: url(../images/gif.gif) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -31,8 +31,9 @@ body a{
 	font-family: "Courier New", Courier, monospace;
 	
   }
+  
   .bgimg2 {
-	background: url(../images/dc.gif) no-repeat 0px 0px;
+	background: url(../images/gif2.gif) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -41,8 +42,9 @@ body a{
 	font-family: "Courier New", Courier, monospace;
 	
   }
+  
   .bgimg3 {
-	background: url(../images/disney.gif) no-repeat 0px 0px;
+	background: url(../images/gif3.gif) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -50,6 +52,128 @@ body a{
    color: white;
 	font-family: "Courier New", Courier, monospace;
 	
+  }
+  .bgimg14 {
+	background: url(../images/gif4.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg4 {
+	background: url(../images/gif5.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg5 {
+	background: url(../images/gif6.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg6 {
+	background: url(../images/gif7.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg7 {
+	background: url(../images/gif8.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg8 {
+	background: url(../images/gif9.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg9 {
+	background: url(../images/gif10.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg10 {
+	background: url(../images/gif11.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg11 {
+	background: url(../images/gif12.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg12 {
+	background: url(../images/gif13.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .bgimg13 {
+	background: url(../images/gif14.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	font-family: "Courier New", Courier, monospace;
+	
+  }
+  .middle {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  hr {
+	margin: auto;
+	width: 40%;
   }
 .banner12{
   background: url(../images/banners/bg2.jpg) no-repeat 0px 0px;
@@ -124,7 +248,7 @@ body a{
 	  background-size: cover;
   }
   .banner2{
-	background: url(../images/banners/amongus.jpg) no-repeat 0px 0px;
+	background: url(../images/banners/starwarslogo.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
@@ -132,7 +256,7 @@ body a{
 }
   
   .banner{
-	  background: url(../images/newb.jpg) no-repeat 0px 0px;
+	  background: url(../images/banners/starwarslogo.jpg) no-repeat 0px 0px;
 	  background-size: cover;
 	  background-attachment: fixed;
 	  background-position: center center;
