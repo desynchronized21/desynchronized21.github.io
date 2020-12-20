@@ -31,6 +31,12 @@ body a{
 	font-family: "Courier New", Courier, monospace;
 	
   }
+  .centerss {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+  }
   .bgimg2 {
 	background: url(../images/dc.gif) no-repeat 0px 0px;
   background-size: cover;
