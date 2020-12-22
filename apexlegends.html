@@ -102,7 +102,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		</div>
 	</div>
+
 	<!-- //banner -->
+	<audio autoplay >
+		<source src="Trailers/Apex Legends.mp3" >
+		<source src="Trailers/Apex Legends.mp3" >
+		
+	  </audio>
 	<!-- about -->
 	<div class="about" id="about">
 		<div class="container">
@@ -115,31 +121,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<div class="container agileits_welcome_grid_left">
 				<h3 style="text-align: center;">Apex Legends</h3>
-				<div class="col-md-6 agileits_welcome_grid_left">
+				<div class=" ">
 					<br>
 					<br>
-					<p style="text-align: left;">Apex legends is a multiplayer battle royale game. 
-						It has all the battle royale features like falling from the sky, scavenging for loot etc. 
-						Apex legends has 8 playable characters "legends", each one having a unique ability. 
-						The abilities can save your squad or get you out of a tricky situation. 
-						Players use the ping coordinate system for better gameplay other than the mic option. 
-						Apex legends is a thrilling game with good graphics and gameplay. 
-						Unlike other battle royale games, the player cannot see the foot marks of nearby enemies or shooting emotes. 
-						You must survive all on your gaming skills and listening strength and this feature may not appear to be good, but it has quite a thrill. 
-						Player even after death can be revived only if their teammate collects his/her banner and take it to a revive point. 
-						The game takes battle royale games up a notch and I would suggest everyone to try out this game once.
+					<p style="text-align: left;">
+						Apex legends is a multiplayer battle royale game. 
+						It has all the battle royale features like falling from the sky, scavenging for loot etc.
+						 Apex legends has 8 playable characters "legends", each one having a unique ability. 
+						 The abilities can save your squad or get you out of a tricky situation. 
+						 Players use the ping coordinate system for better gameplay other than the mic option.
+						  Apex legends is a thrilling game with good graphics and gameplay. Unlike other battle royale games,
+						   the player cannot see the foot marks of nearby enemies or shooting emotes. 
+						   You must survive all on your gaming skills and listening strength and this feature may not appear to be good,
+							but it has quite a thrill. Player even after death can be revived only if their teammate collects his/her banner 
+							and take it to a revive point. The game takes battle royale games up a notch and I would suggest everyone to try out this game once.
+
+
 						</i></p>
 
 				</div>
 				<br>
-				<br>
-				<video class="responsive" controls>
+				<video class="responsive centerss" controls>
 					<source src="Trailers/Apex Legends Official Launch Trailer.mp4" type="video/mp4">
 					<source src="Trailers/Apex Legends Official Launch Trailer.mp4" type="video/ogg">
 
 				</video>
 				<div class="clearfix"> </div>
 			</div>
+		</div>
+	</div>
 		</div>
 	</div>
 	</div>
@@ -306,7 +316,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 	</script>
 <!-- //here ends scrolling icon -->
-
+<script>
+document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+</script>
 	<!-- //PopUp-Box-JavaScript -->
 </body>
 

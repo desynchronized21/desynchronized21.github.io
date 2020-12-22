@@ -43,6 +43,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 <body>
+    <audio autoplay >
+		<source src="Trailers/minecraft_theme.ogg" >
+		<source src="Trailers/minecraft_theme.mp3" >
+		
+	  </audio>
 	<!-- banner -->
 	<div class="banner6">
 		<div class="agileinfo-dot">
@@ -401,7 +406,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
-	</script>
+    </script>
+    <script>
+        document.addEventListener('play', function(e){
+            var audios = document.getElementsByTagName('audio');
+            for(var i = 0, len = audios.length; i < len;i++){
+                if(audios[i] != e.target){
+                    audios[i].pause();
+                }
+            }
+        }, true);
+        </script>
 <!-- //here ends scrolling icon -->
 </body>		
 </html>

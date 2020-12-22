@@ -43,6 +43,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 <body>
+	<audio autoplay >
+		<source src="Trailers/batman_begins_end_th.mp3" >
+		<source src="Trailers/batman_begins_end_th.mp3" >
+		
+	  </audio>
 	<!-- banner -->
 	<div class="banner5">
 		<div class="agileinfo-dot">
@@ -410,6 +415,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								
 			});
 	</script>
+	<script>
+		document.addEventListener('play', function(e){
+			var audios = document.getElementsByTagName('audio');
+			for(var i = 0, len = audios.length; i < len;i++){
+				if(audios[i] != e.target){
+					audios[i].pause();
+				}
+			}
+		}, true);
+		</script>
 	<!-- //PopUp-Box-JavaScript -->
 </body>	
 </html>

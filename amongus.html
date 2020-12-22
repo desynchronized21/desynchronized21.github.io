@@ -115,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<div class="container agileits_welcome_grid_left">
 				<h3 style="text-align: center;">Among Us</h3>
-				<div class="col-md-6 agileits_welcome_grid_left">
+				<div class="">
 					<br>
 					<br>
 					<p style="text-align: left;">
@@ -135,7 +135,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				</div>
 				<br>
-				<video class="responsive" controls>
+				<video class="responsive centerss" controls>
 					<source src="Trailers/y2mate.com - Among Us Steam Release Trailer_1080p.mp4" type="video/mp4">
 					<source src="Trailers/y2mate.com - Among Us Steam Release Trailer_1080p.mp4" type="video/ogg">
 
@@ -254,7 +254,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //contact -->
 	<!-- footer -->
-
+	<audio autoplay >
+		<source src="Trailers/among_us_trap.ogg" >
+		<source src="Trailers/among_us_trap.mp3" >
+		
+	  </audio>
 	<!-- //footer -->
 	<!-- copyright -->
 	<div class="copyright">
@@ -284,7 +288,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 	</script>
 <!-- //here ends scrolling icon -->
-
+<script>
+	document.addEventListener('play', function(e){
+		var audios = document.getElementsByTagName('audio');
+		for(var i = 0, len = audios.length; i < len;i++){
+			if(audios[i] != e.target){
+				audios[i].pause();
+			}
+		}
+	}, true);
+	</script>
 	<!-- //PopUp-Box-JavaScript -->
 </body>
 
