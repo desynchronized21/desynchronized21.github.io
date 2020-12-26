@@ -28,6 +28,96 @@ body a{
   .color{
 	  color: #FF9800;
   }
+  .bgimgcw7 {
+	background: url(../images/cw7.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimgcw6 {
+	background: url(../images/cw6.webp) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimgcw5 {
+	background: url(../images/cw5.webp) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimgcw4 {
+	background: url(../images/cw4.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimgcw3 {
+	background: url(../images/cw3.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimgcw2 {
+	background: url(../images/cw2.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimgcw {
+	background: url(../images/cws1.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimg002 {
+	background: url(../images/mando2.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
+  .bgimg001 {
+	background: url(../images/mando.gif) no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+   background-size: cover;
+   color: white;
+	
+	
+  }
   .bgimg {
 	background: url(../images/gif.gif) no-repeat 0px 0px;
   background-size: cover;
