@@ -5,6 +5,17 @@ body a{
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
   }
+  body {
+	padding: 25px;
+	background-color: white;
+	color: black;
+	font-size: 25px;
+  }
+  
+  .dark-mode {
+	background-color: black;
+	color: white;
+  }
   .responsive {
 	width: 100%;
 	max-width: 500px;
@@ -56,6 +67,13 @@ body a{
    color: white;
 	font-family: "Courier New", Courier, monospace;
 	
+  }
+  .banner15{
+	background: url(../images/banners/jedifo.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
   }
 .banner12{
   background: url(../images/banners/bg2.jpg) no-repeat 0px 0px;

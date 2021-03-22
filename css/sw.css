@@ -9,7 +9,7 @@ body a{
 	
 	width: 100%;
 	max-width: 800px;
-	height: auto;
+	
   }
   .centerss {
 	display: block;
@@ -99,7 +99,7 @@ body a{
 	
   }
   .bgimg002 {
-	background: url(../images/mando2.gif) no-repeat 0px 0px;
+	background: url(../images/mandos2bg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -109,7 +109,7 @@ body a{
 	
   }
   .bgimg001 {
-	background: url(../images/mando.gif) no-repeat 0px 0px;
+	background: url(../images/mandos1bg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -119,7 +119,7 @@ body a{
 	
   }
   .bgimg {
-	background: url(../images/gif.gif) no-repeat 0px 0px;
+	background: url(../images/robg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -130,7 +130,7 @@ body a{
   }
   
   .bgimg2 {
-	background: url(../images/gif2.gif) no-repeat 0px 0px;
+	background: url(../images/mandobg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -141,7 +141,7 @@ body a{
   }
   
   .bgimg3 {
-	background: url(../images/gif3.gif) no-repeat 0px 0px;
+	background: url(../images/solobg.png) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -150,18 +150,9 @@ body a{
 	
 	
   }
-  .bgimg14 {
-	background: url(../images/gif4.gif) no-repeat 0px 0px;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
-	 background-size: cover;
-	 color: white;
-	
-	
-  }
+  
   .bgimg4 {
-	background: url(../images/gif5.gif) no-repeat 0px 0px;
+	background: url(../images/aotcbg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -171,7 +162,7 @@ body a{
 	
   }
   .bgimg5 {
-	background: url(../images/gif6.gif) no-repeat 0px 0px;
+	background: url(../images/cwbg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -181,7 +172,7 @@ body a{
 	
   }
   .bgimg6 {
-	background: url(../images/gif7.gif) no-repeat 0px 0px;
+	background: url(../images/rotsbg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -191,7 +182,7 @@ body a{
 	
   }
   .bgimg7 {
-	background: url(../images/gif8.gif) no-repeat 0px 0px;
+	background: url(../images/rebbg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -201,7 +192,7 @@ body a{
 	
   }
   .bgimg8 {
-	background: url(../images/gif9.gif) no-repeat 0px 0px;
+	background: url(../images/anewbg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -211,7 +202,7 @@ body a{
 	
   }
   .bgimg9 {
-	background: url(../images/gif10.gif) no-repeat 0px 0px;
+	background: url(../images/esbbg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -221,7 +212,7 @@ body a{
 	
   }
   .bgimg10 {
-	background: url(../images/gif11.gif) no-repeat 0px 0px;
+	background: url(../images/totjbg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -231,7 +222,7 @@ body a{
 	
   }
   .bgimg11 {
-	background: url(../images/gif12.gif) no-repeat 0px 0px;
+	background: url(../images/tfabg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -241,7 +232,7 @@ body a{
 	
   }
   .bgimg12 {
-	background: url(../images/gif13.gif) no-repeat 0px 0px;
+	background: url(../images/tljbg.webp) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -251,13 +242,23 @@ body a{
 	
   }
   .bgimg13 {
-	background: url(../images/gif14.gif) no-repeat 0px 0px;
+	background: url(../images/rosbg.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
    background-size: cover;
    color: white;
  
+	
+  }
+  .bgimg14 {
+	background: url(../images/pmbg.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
+	 color: white;
+	
 	
   }
   .middle {
@@ -302,6 +303,9 @@ body a{
 	/* Add shadows to create the "card" effect */
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
+	background-color: black;
+	
+	
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -318,7 +322,7 @@ body a{
   @media screen and (max-width: 600px) {
 	.column {
 	  width: 100%;
-	  display: block;
+	  
 	  margin-bottom: 20px;
 	}
   }
